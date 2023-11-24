@@ -1,5 +1,12 @@
 * {
-    border: 2px solid rgb(200, 200, 200);
-    padding: 2px;
-    margin: 5px;
+  font-family: 'Baskervville', serif;
+  border: 2px solid rgb(200, 200, 200);    
+  padding: 2px;
+  margin: 5px;
+}
+.cover-img {
+  width: 450px;
+  height: 275px;
+  object-fit: cover;
+  object-position: center;    
 }
