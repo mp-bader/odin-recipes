@@ -1,12 +1,46 @@
 * {
+  background-color: rgb(50, 50, 50);
+  color: rgb(200, 200, 200);
   font-family: 'Baskervville', serif;
-  border: 2px solid rgb(200, 200, 200);    
+      
   padding: 2px;
   margin: 5px;
 }
+h1 {
+  font-style: italic;
+  font-size: 40px;
+  margin: 20px 20px 20px 20px;
+}
+h2 {
+  margin: 0px 20px 0px 20px;
+}
+p {
+  color: rgb(160, 160, 160);
+  font-size: 16px;
+  font-style: italic;
+  margin: 0px 20px 0px 20px;
+}
+ul, ol {
+  font-style: italic;
+  color: rgb(160, 160, 160);
+  padding: 10px 20px 20px 20px;
+  margin: 0px 20px 0px 20px;
+}
+.ingredients {
+  margin-top: 0px;
+}
+.frame {
+  border: solid 1px rgb(100, 100, 100);
+  width: 450px;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 0px 0px 0px;
+}
 .cover-img {
+  border: solid 2px rgb(255, 255, 255);
   width: 450px;
   height: 275px;
+  padding: 0;
   object-fit: cover;
-  object-position: center;    
+  object-position: center;
+  margin: 20px 20px 20px 20px;    
 }

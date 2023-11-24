@@ -1,6 +1,8 @@
 * {
+  background-color: rgb(50, 50, 50);
+  color: rgb(200, 200, 200);
   font-family: 'Baskervville', serif;
-  border: 2px solid rgb(200, 200, 200);
+  
   padding: 2px;
   margin: 5px;
 }
