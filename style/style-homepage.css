@@ -21,31 +21,24 @@ h1 {
 }
 h2 {
   background-color: #231f20;
-  margin: 10px 0 4px 20px;
-  padding: 0;
+  margin: 0;
+  padding-left: 10px;
 }
 a {
-  font-size: 18px;
-  font-style: italic;
-  background-color: #231f20;
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  bottom: 24px;
-  right: 30px;
+  text-decoration: none;
 }
 p {
+  height: 90px;
   font-size: 18px;
   background-color: #231f20;
   font-weight: bold;
   margin: 0;
-  padding: 10px 10px 10px 20px;
+  padding: 10px 10px 10px 10px;
 }
 .card-collection {
-  width: 1192px;
-  display: block;
-  margin: 32px;
-  padding: 0;
+  display: inline-block;
+  margin: 0;
+  padding: 32px 32px 32px 32px;
 }
 .card {
   background-color: #231f20;
@@ -53,8 +46,19 @@ p {
   height: 400px;
   margin: 32px;
   padding: 0;
-  position: relative;
+  vertical-align: text-top;
   display: inline-block;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+.card-text {
+  background-color: #231f20;
+  padding: 20px;
+  margin: 0;
+}
+.card:hover {
+  transform: translate(5px, 5px);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
 }
 .searchbar-div {
   margin: 0px 20px 0px 20px;
