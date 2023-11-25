@@ -20,7 +20,7 @@ h1 {
   display: block;
 }
 h2 {
-  background-color: #231f20;
+  background-color: transparent;
   margin: 0;
   padding-left: 10px;
 }
@@ -30,7 +30,7 @@ a {
 p {
   height: 90px;
   font-size: 18px;
-  background-color: #231f20;
+  background-color: transparent;
   font-weight: bold;
   margin: 0;
   padding: 10px 10px 10px 10px;
@@ -46,19 +46,22 @@ p {
   height: 400px;
   margin: 32px;
   padding: 0;
-  vertical-align: text-top;
+  vertical-align: top;
   display: inline-block;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  transition: box-shadow 0.3s, transform 0.3s;
+  transition: box-shadow 1.3s, transform 1.3s, background-color 3s;
 }
 .card-text {
-  background-color: #231f20;
+  background-color: transparent;
   padding: 20px;
   margin: 0;
 }
 .card:hover {
   transform: translate(5px, 5px);
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+  background-color: #33333d;
+  border: #898991 solid 1px;
+  transition: box-shadow 0.2s, transform 0.2s, background-color 0.4s;
 }
 .searchbar-div {
   margin: 0px 20px 0px 20px;
