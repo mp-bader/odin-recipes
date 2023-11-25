@@ -1,5 +1,5 @@
 * {
-  background-color: rgb(50, 50, 50);
+  background-color: #33333d;
   color: rgb(200, 200, 200);
   font-family: 'Baskervville', serif;
       
@@ -13,6 +13,7 @@ h1 {
 }
 h2 {
   margin: 0px 20px 0px 20px;
+  background-color: #33333d;
 }
 p {
   color: rgb(160, 160, 160);
@@ -21,22 +22,27 @@ p {
   margin: 0px 20px 0px 20px;
 }
 ul, ol {
+  background-color: #3c3c47;
   font-style: italic;
   color: rgb(160, 160, 160);
   padding: 10px 20px 20px 20px;
   margin: 0px 20px 0px 20px;
 }
-.ingredients {
-  margin-top: 0px;
+li {
+  background-color: #3c3c47;
 }
 .frame {
+  background-color: #3c3c47;
   border: solid 1px rgb(100, 100, 100);
   width: 450px;
   margin: 20px 20px 20px 20px;
   padding: 20px 0px 0px 0px;
 }
+.frame-header {
+  background-color: #3c3c47;
+  margin-left: 28px;
+}
 .cover-img {
-  border: solid 2px rgb(255, 255, 255);
   width: 450px;
   height: 275px;
   padding: 0;
