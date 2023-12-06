@@ -17,7 +17,9 @@ img {
 h1 {
   padding: 0;
   margin: 40px 20px 0px 60px;
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 h2 {
   background-color: transparent;
@@ -36,9 +38,13 @@ p {
   padding: 10px 10px 10px 10px;
 }
 .card-collection {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-basis: content;
   margin: 0;
   padding: 32px 32px 32px 32px;
+  border: solid 1px red;
 }
 .card {
   background-color: #231f20;
@@ -65,7 +71,9 @@ p {
 .searchbar-div {
   margin: 40px 20px 0px 60px;
   padding: 0;
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .searchbar {
   font-size: 20px;  
